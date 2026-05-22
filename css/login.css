@@ -1,0 +1,47 @@
+html {
+    scale: 120%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+h2 {
+    margin-top: 0;
+    color: #000; /* Warna teks hitam */
+    text-align: center;
+}
+
+form {
+    background-color: #e6f7ff; /* Warna biru langit */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+label {
+    color: #333; /* Warna teks biru abu-abu */;
+}
+
+input[type="text"], input[type=password] {
+    width: wrapped;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #999; /* Warna border biru abu-abu */
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #0099cc; /* Warna tombol biru langit */
+    color: #fff; /* Warna teks putih */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #0077aa; /* Warna tombol biru tua saat hover */
+}

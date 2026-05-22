@@ -1,0 +1,19 @@
+span {
+    font-size: 40px;
+}
+th {
+    background-color: rgb(70, 179, 252);
+    color: white;
+    font-size: 12px;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+td {
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    border-radius: 15px;
+    border: 1px black solid;
+    white-space: nowrap;
+    overflow: hidden;
+    padding: 5px 10px;
+}
